@@ -1,0 +1,9 @@
+<h2>Shortest Route Between Two Airports</h2>
+<form method="get">
+    From : <input type="text" name="from"><br>
+    To : <input type="text" name="to"><br>
+    <button type="submit">Search</button>
+</form>
+{% if result %}
+<p>Shortest Distance: {{ result }} km</p>
+{% endif %}
